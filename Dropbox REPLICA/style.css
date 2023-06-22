@@ -1,0 +1,108 @@
+/* Lesson 1.5 assingment
+                clone Dropbox Login page
+                ver: 1.0
+*/
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    min-height: 60px;
+    border: 2px dashed black;
+    padding: 0;
+    top: 0;
+    width: 1265;
+    display: flex
+}
+
+.db {
+    position: absolute;
+    display: inline;
+    margin-left: -450px;
+    
+}
+
+.su {
+    position: absolute;
+    display: inline;
+    margin-left: 438px;
+}
+
+.login {
+    width: 1265;
+    height: 160px;
+    display: flex;
+    margin-bottom: -18px;
+}
+
+.sign-in-with-G {
+    display: flex; 
+    
+    
+}
+
+.sign-in-with-A {
+    display: flex;
+    margin-top: 10px;
+}
+
+/*  ------ or ------ */
+
+.email {
+    display: flex;
+    margin-top: 10px
+}
+
+.continue {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    
+}
+
+.btn {
+    min-width: 330px;
+    min-height: 58px;
+}
+
+.footer {
+    background-color: black;
+    min-height: 550px;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.primero {
+    font-weight: bolder;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 100px [col-start]);
+}
+
+.Dropbox {
+    padding-left: 60px;
+    box-sizing: border-box;
+    
+}
+
+.Products {
+   padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.Support {
+    padding-left: 60px;
+}
+
+.Community {
+    padding-left: 60px;
+}
+
+.Company {
+    padding-left: 60px;
+}
